@@ -53,6 +53,17 @@ public class GetRequest {
 	
 //	WAP to fetch all the value of firstname for all index positions
 	
+	for(int i=0; i<6; i++)
+	{
+		String firstname = jp.getString("data["+i+"].first_name");
+		
+		System.out.println(firstname);
+	}
+	
+	
+	
+	
+	
 	
 	}
 	
