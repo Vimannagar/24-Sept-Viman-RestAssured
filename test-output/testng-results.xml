@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-08T20:49:12 IST" name="Default suite" finished-at="2023-03-08T20:49:24 IST" duration-ms="11564">
+  <suite started-at="2023-03-09T20:41:47 IST" name="Default suite" finished-at="2023-03-09T20:41:53 IST" duration-ms="6557">
     <groups>
     </groups>
-    <test started-at="2023-03-08T20:49:12 IST" name="Default test" finished-at="2023-03-08T20:49:24 IST" duration-ms="11564">
-      <class name="basics.POSTRequest">
-        <test-method signature="createUser()[pri:0, instance:basics.POSTRequest@4a7f959b]" started-at="2023-03-08T20:49:13 IST" name="createUser" finished-at="2023-03-08T20:49:24 IST" duration-ms="11366" status="PASS">
+    <test started-at="2023-03-09T20:41:47 IST" name="Default test" finished-at="2023-03-09T20:41:53 IST" duration-ms="6557">
+      <class name="serializationanddeserialization.CreateUser">
+        <test-method signature="createUser()[pri:0, instance:serializationanddeserialization.CreateUser@32b260fa]" started-at="2023-03-09T20:41:47 IST" name="createUser" finished-at="2023-03-09T20:41:53 IST" duration-ms="6432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-      </class> <!-- basics.POSTRequest -->
+      </class> <!-- serializationanddeserialization.CreateUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

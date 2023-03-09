@@ -29,5 +29,20 @@ public class JsonBody {
 				+ "]\r\n"
 				+ "}";
 	}
+	
+	
+	public static String createUserBody()
+	{
+		return "{\r\n"
+				+ "  \"id\": 0,\r\n"
+				+ "  \"username\": \"testuser\",\r\n"
+				+ "  \"firstName\": \"Adam\",\r\n"
+				+ "  \"lastName\": \"Simons\",\r\n"
+				+ "  \"email\": \"adam.simons@gmail.com\",\r\n"
+				+ "  \"password\": \"Test@1234\",\r\n"
+				+ "  \"phone\": \"9876543210\",\r\n"
+				+ "  \"userStatus\": 0\r\n"
+				+ "}";
+	}
 
 }
