@@ -43,7 +43,9 @@ ResponseBody responsebody = given()
 		.post("/user")
 		
 		.then()
+		
 		.log().all()
+		
 		.extract()
 		
 		.response()
@@ -53,6 +55,14 @@ ResponseBody responsebody = given()
 String message = responsebody.getMessage();
 
 System.out.println(message);
+
+int code = responsebody.getCode();
+
+System.out.println(code);
+
+
+
+
 		
 		
 	}
