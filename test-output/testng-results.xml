@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-10T20:18:58 IST" name="Default suite" finished-at="2023-03-10T20:19:13 IST" duration-ms="15376">
+  <suite started-at="2023-03-11T20:29:45 IST" name="Suite" finished-at="2023-03-11T20:29:53 IST" duration-ms="8308">
     <groups>
     </groups>
-    <test started-at="2023-03-10T20:18:58 IST" name="Default test" finished-at="2023-03-10T20:19:13 IST" duration-ms="15376">
-      <class name="basics.APIChaining">
-        <test-method signature="createUser()[pri:1, instance:basics.APIChaining@581ac8a8]" started-at="2023-03-10T20:18:58 IST" name="createUser" finished-at="2023-03-10T20:19:05 IST" duration-ms="7208" status="PASS">
+    <test started-at="2023-03-11T20:29:45 IST" name="Test" finished-at="2023-03-11T20:29:53 IST" duration-ms="8308">
+      <class name="ecommerceapi.PlaceOrdersAPI">
+        <test-method signature="placeOrder()[pri:0, instance:ecommerceapi.PlaceOrdersAPI@3232a28a]" started-at="2023-03-11T20:29:53 IST" name="placeOrder" finished-at="2023-03-11T20:29:53 IST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method signature="getUserDetails()[pri:2, instance:basics.APIChaining@581ac8a8]" started-at="2023-03-10T20:19:05 IST" name="getUserDetails" finished-at="2023-03-10T20:19:13 IST" duration-ms="8059" status="PASS">
+        </test-method> <!-- placeOrder -->
+      </class> <!-- ecommerceapi.PlaceOrdersAPI -->
+      <class name="ecommerceapi.Add_Product">
+        <test-method signature="addProductToApp()[pri:0, instance:ecommerceapi.Add_Product@7133da86]" started-at="2023-03-11T20:29:52 IST" name="addProductToApp" finished-at="2023-03-11T20:29:53 IST" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUserDetails -->
-      </class> <!-- basics.APIChaining -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- addProductToApp -->
+      </class> <!-- ecommerceapi.Add_Product -->
+      <class name="ecommerceapi.LoginAPI">
+        <test-method signature="loginToApp()[pri:0, instance:ecommerceapi.LoginAPI@78123e82]" started-at="2023-03-11T20:29:45 IST" name="loginToApp" finished-at="2023-03-11T20:29:52 IST" duration-ms="7257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+      </class> <!-- ecommerceapi.LoginAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
